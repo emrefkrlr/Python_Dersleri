@@ -6,6 +6,15 @@ STATUS = 1
 
 ## Sayısal Değişkenler İnt Float
 
+a = 5
+print(type(a))
+
+b = 5.1
+print(type(b))
+
+c = "5"
+print(type(c))
+
 
 ## String İfadeler
 
