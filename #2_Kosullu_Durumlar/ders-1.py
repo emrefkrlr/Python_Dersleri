@@ -4,7 +4,7 @@
 
 
 #age = int(input("Yaşınızı girin: "))
-age = 22
+age = 21
 
 if age < 18:
 
@@ -54,7 +54,7 @@ else:
     print("Girdiğiniz bilgiler yanlış...")
 
 
-
-
 # 4 İşlem yapabilen bir hesap makinesi kodlayalım.
+
+
 
