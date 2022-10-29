@@ -2,7 +2,6 @@
 
 
 
-
 #age = int(input("Yaşınızı girin: "))
 age = 21
 
