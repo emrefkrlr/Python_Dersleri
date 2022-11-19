@@ -1,94 +1,10 @@
-a = "emre istanbul"
+ust_limit_sayisi = int(input("Bir sayı giriniz:  ")) # 5
 
-yaslar = [22, 33, 12, 55, 17, 66]
-
-
-for age in yaslar:
-
-    if age < 18:
-
-        #print("Mekana Girmezsiniz...")
-        pass
-
-    else:
-        pass
-        #print("Hoşgeldiniz...")
-
-
-sözlük = {"bir":1,"iki":2,"üç":33,"dört":43}
-# items()
-# keys()
-# values()
-
-
-for eleman in sözlük.values():
-
-    if eleman > 10 and eleman < 50:
-
-        #print("Eleman  ", eleman)
-        pass
-
-
-
-# Döngüde i değerlerini ekrana yazdırma
-basinc = [22, 33, 12, 55, 66, 110]
-
-status = True
-
-i = 0
-
-for b in basinc:
-
-    if b > 60:
-        print("Basınç kritik seviyede. Tank kapatılıyor....")
+toplam = 0                                      # toplam 0 
+for i in range(1,ust_limit_sayisi):             # 1 den 5 e kadar olan sayılar donüyor.
+    print("Döngü sayısı -> ", i)                # 1, 2, 3, 4
     
-    else:
-        print("Tank Çalışıyor... Basınç: {}".format(b))
+    toplam = toplam + i                         # toplam = 10
 
-
-# Ödev
-notlar = [43, 23, 99, 71, 11, 10, 33]
-durum = []
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-while status:
-
-    if basinc[i] > 60:
-
-        #print("Basınç kritik seviyede. Tank kapatılıyor....")
-        status = False
+print("Girmiş olduğunuz sayıya kadar olan toplam ", toplam) # 10 
     
-    else:
-        #print("Tank Çalışıyor...")
-        pass
-    i = i + 1
-
-print("While Döngüsü dışındayım ")
-
-
-
-
-
-    
-
-
-
-    
-
-
