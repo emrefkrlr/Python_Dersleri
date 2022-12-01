@@ -6,3 +6,8 @@ def yeni_kayit(isim, soyisim, yas=False):
     
     if yas:
         print("yas: ", yas)
+
+
+def ikinci_fonksiyon(a):
+
+    print(a)

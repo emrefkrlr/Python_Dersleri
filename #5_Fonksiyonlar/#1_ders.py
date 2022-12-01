@@ -1,102 +1,56 @@
-# Fonksyion Tanımlama
-def fonksiyon_ismi():
-
-
-    print("emre")
-
-
-#fonksiyon_ismi() # Fonsiyon Çağrıldı
-
+# Fonksiyon tanımı
 
 def selamla():
 
-    print("Merhaba python dersi başlıyor")
+    print("Fonksiyon çağrıldı")
 
 
+# Fonksiyon çağırma
+#print("Fonsiyon yok")
 #selamla()
 
 
-def yeni_kayit(isim, soyisim, yas):
 
-    print("Yeni Kullanıcı Tanımlandı")
-    print("isim: ", isim)
-    print("soyisim: ", soyisim)
-    print("yas: ", yas)
+def cift_sayilar():
 
-# Parametrelerin Kullanımı
-# 1. kullanım
-#yeni_kayit("emre", "fikirlier", "30")
+    for i in range(1,101):
 
-# 2. kullanım
-#yeni_kayit(isim="emre", soyisim="fikirlier", yas=30)
+        if i % 2 == 0:
+
+            print(i)
 
 
-def kullanicidan_bilgi_al():
-
-    isim = input("Adınız:  ")
-    print(isim)
-
-#kullanicidan_bilgi_al()
-
-# Default(varsayılan) değer vermek
-def yeni_kayit(isim, soyisim, yas=False):
-
-    print("Yeni Kullanıcı Tanımlandı")
-    print("isim: ", isim)
-    print("soyisim: ", soyisim)
-    
-    if yas:
-        print("yas: ", yas)
-
-#yeni_kayit("emre", "fikirlier", 22)
+#cift_sayilar()
+#selamla()
 
 
-a = 21
+def now_year():
 
-def toplama(a, b):
-
-    sonuc = a + b
-
-    return sonuc
+    return 2022
 
 
-#print(toplama(22,11) / 300   )
+def hesapla(dy):
+
+    yil = now_year()
+
+    return yil - dy
 
 
-def selamla():
+print(hesapla(1990))
 
-    return "Merhaba python dersi başlıyor {}"
 
-#print(selamla().format("emre"))
 
-notlar = [22, 33, 12, 55, 17, 66]
 
-# def not_kontrol(notlar):
 
-#     for i in notlar:
 
-#         if i > 50:
 
-#             return "Geçti"
-        
-#         else:
 
-#             return "Kaldı"
 
-notlar = [22, 33, 12, 55, 17, 66]
 
-def not_kontrol(n):
 
-    if n > 50:
 
-        return "Geçti"
 
-    else:
 
-        return "Kaldı"
-
-for i in notlar:
-    print(not_kontrol(i))
 
 
 
