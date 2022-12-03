@@ -40,13 +40,7 @@ else:
     print(cikarma(a,b))
 
 
-yeni_kayit("emre", "fikirlier", 22)
+#yeni_kayit("emre", "fikirlier", 22)
 
 
-ikinci_fonksiyon("İkinci fonk")
-
-
-
-
-
-
+#ikinci_fonksiyon("İkinci fonk")

@@ -91,34 +91,23 @@ def kisi_listesi(*kisiler):
         print(i, " Kayıt Edildi...")
 
 
-#kisi_listesi("emre", "ali", "Ayşe", 33 ,11, 2.2)
+#kisi_listesi("emre", "ali", "Ayşe")
+
+def kisi_listesi2(**kisiler2):
+
+    for k,v in kisiler2.items():
+
+        msj = """
+        Paramerte İsmi  /   Değeri
+        {}              /   {}    
+        """.format(k, v)
+
+        print(msj)
+
+    #return msj
 
 
-
-x = isinstance(33, str)
-
-
-z = "Ali"
-
-if isinstance(z, str):
-
-    print("String")
-
-else:
-
-    print("String değil")
-
-
-
-
-
-
-
-
-
-
-
-
+kisi_listesi2(isim="emre", yas=22, okul="Osmangazi")
 
 
 
